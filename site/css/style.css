@@ -1,0 +1,71 @@
+.contain {
+  vertical-align: middle;
+}
+.box {
+  border: 1px solid black;
+  background-color: darkgray;
+  width: 30%;
+  float: left;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+}
+
+.nomargin {
+  margin: 0px;
+  text-align: right;
+  margin-top: 10px;
+}
+.titleone {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  background-color: hotpink;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.titletwo {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  background-color: red;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.titlethree {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  background-color: yellow;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.graphpadding {
+  padding: 10px 15px 0px 15px;
+  text-align: justify;
+}
+
+@media (max-width: 575.98px) {
+  .box {
+    width: 95%;
+    float: left;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-top: 4.5%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .box {
+    width: 45%;
+    float: left;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+  }
+  .box:last-child {
+    width: 93%;
+    float: left;
+    margin-top: 2.5%;
+  }
+}
