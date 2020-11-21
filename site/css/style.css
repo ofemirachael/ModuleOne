@@ -1,3 +1,6 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
 .contain {
   vertical-align: middle;
 }
@@ -44,6 +47,7 @@
 .graphpadding {
   padding: 10px 15px 0px 15px;
   text-align: justify;
+  line-height: 24px;
 }
 
 @media (max-width: 575.98px) {
